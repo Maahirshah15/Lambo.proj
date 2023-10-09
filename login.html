@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <div class="container">
+        <video autoplay muted loop plays-inline class="background-clip">
+            <source src="login-vid.mp4" type="video/mp4">
+            </video>
+
+            <div class="topnav">
+            <a href="file:///F:/Users/Asmin/Desktop/lamborghini/Index/index.html">HOME</a>
+            <a href="file:///F:/Users/Asmin/Desktop/lamborghini/models/models.html">MODELS</a>
+            <a href="file:///F:/Users/Asmin/Desktop/lamborghini/History/history.html">HISTORY</a>
+            <a class="active" href="file:///F:/Users/Asmin/Desktop/lamborghini/login/login.html">LOGIN</a>
+            <a href="file:///F:/Users/Asmin/Desktop/lamborghini/contact/contact.html">CONTACT</a>
+            <img src="Logo.png" height="75px" style="float: right;">
+            </div>
+
+            <div class="logo">
+                <img src="LOGIN1.png" height="500px">
+            </div>
+    
+            <div class="content" >
+                <form>
+                    <div class="overall">
+                    <div class="inputbox">
+                    <h4 style="color: white;font-size: 20px;padding-right: 300px;font-family:'Poppins', sans-serif;">Username</h4>    
+                    <label for="input"></label><br>
+                    <input type="text" id="name" name="name" placeholder="Username"><br>
+                    </div>
+                    <br>
+                    <h4 style="color: white;font-size: 20px;padding-right: 300px;font-family:'Poppins', sans-serif;">Password</h4>   
+                    <div class="inputbox"><label for="input"></label><br>
+                    <input type="text" id="Email" name="Email" placeholder="Password" ><br>
+                    </div>
+                    <br>
+                    <h4 style="color: white;font-size: 20px;padding-right: 220px;font-family:'Poppins', sans-serif;">Confirm Password</h4>   
+                    <div class="inputbox"><label for="input"></label><br>
+                    <input type="message" id="message" name="message" placeholder="Confirm Password"><br>
+                    </div>
+                    <br><br>
+                    <div class="button"> 
+                    <button type="button" id="redirectButton">Login</button>
+                    <script>
+                        // Get a reference to the button element by its ID
+                        var redirectButton = document.getElementById("redirectButton");
+                
+                        // Add a click event listener to the button
+                        redirectButton.addEventListener("click", function() {
+                            // Set the new URL here
+                            var newUrl = "file:///F:/Users/Asmin/Desktop/lamborghini/Index/index.html"; // Replace with your desired URL
+                            // Redirect to the new URL
+                            window.location.href = newUrl;
+                        });
+                    </script>
+                    </div>
+                   
+                   <br>
+                  </form>
+                  </div>
+    </div>
+    
+</body>
+</html>

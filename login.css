@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+*{padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  }
+
+.topnav {
+  background-color: #000000;
+  overflow: hidden;
+  opacity: 0.75;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 25px 25px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  opacity: 1;
+  
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
+.background-clip{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio:16/9) {
+    .background-clip{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio:16/9) {
+    .background-clip{
+        width: auto;
+        height: 100%;
+    }
+}
+
+.logo{
+  align-items: center;
+  text-align: center;
+  margin-top: -0.5%;
+  height: 250px;
+}
+
+.content{
+  height:500px;
+  align-items: center;
+  text-align: center;
+  width:100%;
+  align-items: center;
+  }
+
+  .content form{
+    width: 25%;
+    border: none;
+    outline: none;
+    border: 2px solid white;
+    height: 500px;
+    margin-left: 37.5%;
+    border-radius: 40px;
+    margin-top: -0.5%;
+  }
+
+.inputbox{
+  width: 100%;
+}
+
+.inputbox input[type="text"]{
+  width: 400px;
+  height: 40px;
+  color: white;
+  font-family:'Poppins', sans-serif;
+  font-size: 20px;
+  text-align: center; 
+}
+
+.inputbox input{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border:2px solid white;
+  border-radius: 10px;
+}
+
+.inputbox input[type="message"]{
+  width: 400px;
+  height: 40px;
+  color: white;
+  font-family:'Poppins', sans-serif;
+  font-size: 20px;
+  text-align: center; 
+}
+
+::placeholder{
+  text-align: center;
+  color: white;
+  opacity: 1;
+  font-size: 18px;
+}
+
+
+.button{
+  max-width: 100%;
+  height: 50px;
+  
+}
+
+.button [type="button"]
+{
+width: 200px;
+height: 40px;
+font-size: 18px;
+background-color: transparent;
+border: none;
+outline: none;
+border:2px solid white;
+border-radius: 10px;
+color: white;
+}
+
+.button [type="button"]:hover{
+  color: black;
+  background-color: rgb(255, 255, 255);
+}
+
+.overall{
+  margin-top: 11%;
+}
+
+.content form h4{
+  width: 100%;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+<div class="container">
+
+<div class="topcont">
+<video autoplay muted loop plays-inline class="background-clip">
+<source src="vid1.mp4" type="video/mp4">
+</video>
+
+<div class="topnav">
+  <a class="active" href="file:///F:/Users/Asmin/Desktop/lamborghini/Index/index.html">HOME</a>
+  <a href="file:///F:/Users/Asmin/Desktop/lamborghini/models/models.html">MODELS</a>
+  <a href="file:///F:/Users/Asmin/Desktop/lamborghini/History/history.html">HISTORY</a>
+  <a href="file:///F:/Users/Asmin/Desktop/lamborghini/login/login.html">LOGIN</a>
+  <a href="file:///F:/Users/Asmin/Desktop/lamborghini/contact/contact.html">CONTACT</a>
+  <img src="Logo.png" height="75px" style="float: right;">
+  </div>
+</div>
+<br>
+<div class="about">
+  <h1>About Us</h1>
+  
+  <p>Lamborghini is an iconic Italian luxury sports car manufacturer known for<br> 
+    producing high-performance, exotic vehicles. Founded in 1963 by Ferruccio<br> 
+    Lamborghini, the company is headquartered in Sant'Agata Bolognese, Italy.<br> 
+    Lamborghini cars are renowned for their striking designs, powerful engines,<br> 
+    and exceptional handling, making them a symbol of status and speed. Some<br> 
+    of their famous models include the Aventador, Huracán, and the limited-ed-<br> 
+    ition hypercars like the Veneno and Centenario. Lamborghini's commitment<br> 
+    to innovation and cutting-edge technology ensures that their vehicles con-<br> 
+    tinue to push the boundaries of automotive engineering and remain a <br> 
+    dream for car enthusiasts worldwide.
+    </p>
+</div>
+<div class="models">
+<p>GET YOUR LAMBORGHINI NOW</p>
+<div class="button"> 
+  <button type="button" id="redirectButton">Buy Now</button>
+  <script>
+    // Get a reference to the button element by its ID
+    var redirectButton = document.getElementById("redirectButton");
+
+    // Add a click event listener to the button
+    redirectButton.addEventListener("click", function() {
+        // Set the new URL here
+        var newUrl = "file:///F:/Users/Asmin/Desktop/lamborghini/models/models.html"; // Replace with your desired URL
+        // Redirect to the new URL
+        window.location.href = newUrl;
+    });
+</script>
+</div>
+
+<div class="end" >
+    
+  <img src="logo.png" height="80%">
+</div>
+
+</div>
+</body>
+</html>
