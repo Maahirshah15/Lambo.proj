@@ -5,6 +5,10 @@
   font-family: 'Poppins', sans-serif;
   }
 
+.container{
+background-image: url('img_girl.jpg');
+  background-size: cover;
+}
 .topnav {
   background-color: #000000;
   overflow: hidden;
@@ -32,27 +36,6 @@
 .topnav a.active {
   background-color: #ffffff;
   color: rgb(0, 0, 0);
-}
-
-.background-clip{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-}
-
-@media (min-aspect-ratio:16/9) {
-    .background-clip{
-        width: 100%;
-        height: auto;
-    }
-}
-
-@media (max-aspect-ratio:16/9) {
-    .background-clip{
-        width: auto;
-        height: 100%;
-    }
 }
 
 .logo{
